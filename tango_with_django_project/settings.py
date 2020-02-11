@@ -29,6 +29,9 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
+# COOKIES
+SESSION_EXPIRE_AT_BROWSER_CLOSE = True
+
 # LOGIN
 LOGIN_URL = 'rango:login'
 
